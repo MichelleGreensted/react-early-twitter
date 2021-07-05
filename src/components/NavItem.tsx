@@ -4,10 +4,10 @@ interface NavItemProps {
 
 function NavItem(props: NavItemProps): JSX.Element {
   return (
-    <div>
+    <>
+      <span>-- </span>
       <a href="#">~{props.label.toUpperCase()}</a>
-      <span>--</span>
-    </div>
+    </>
   );
 }
 
