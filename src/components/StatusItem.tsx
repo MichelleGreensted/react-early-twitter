@@ -13,7 +13,10 @@ function StatusItem(props: StatusItemProps): JSX.Element {
       {props.emoji}{" "}
       <a href="#">
         {props.username}
-        <small>{formTimeString(props.timeAgo.n, props.timeAgo.unit)} ago</small>
+        <small>
+          {" "}
+          ({formTimeString(props.timeAgo.n, props.timeAgo.unit)} ago)
+        </small>
       </a>
       : {props.content}
     </li>
