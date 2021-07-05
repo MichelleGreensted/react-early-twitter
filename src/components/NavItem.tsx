@@ -5,7 +5,7 @@ interface NavItemProps {
 function NavItem(props: NavItemProps): JSX.Element {
   return (
     <>
-      <span>{' -> '}</span>
+      <span>{" -> "}</span>
       <a href="#">~{props.label.toUpperCase()}</a>
     </>
   );
