@@ -29,6 +29,12 @@ function FriendStatuses(): JSX.Element {
           emoji={"◻️"}
           timeAgo={{ n: 19, unit: "minutes" }}
         />
+        <StatusItem
+          username={"drx"}
+          content={"chatting in gmail w/Jack"}
+          emoji={"⭐"}
+          timeAgo={{ n: 31, unit: "minutes" }}
+        />
         <li>
           ⭐ <a href="#">drx</a>: chatting in gmail w/Jack
           <small>31 minutes ago</small>
